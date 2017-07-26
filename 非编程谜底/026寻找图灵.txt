@@ -1,0 +1,24 @@
+6个字母 有A(6)(6)种组合。6！=720种字母组合
+
+每个字母有5！=120种组合
+
+GINRTU
+
+T位于第5个上，TGINRU之前有120*4=480种方式
+
+GINRU - UGINR    U最后一个 UGINR之前有24*4=96种方式
+
+GINR - RING      R最后一个 RGIN之前有6*3=18种
+
+GIN  -  ING   GIN GNI IGN ING
+之前有480+96+18+3种= 597种
+
+第598个
+
+此为笨办法
+
+减一算法
+U******有120种
+TURING后面TURING TURNIG TURNGI
+
+720-120-2=598
