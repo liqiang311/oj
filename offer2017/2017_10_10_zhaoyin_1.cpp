@@ -16,7 +16,7 @@ int main()
         {
             int tmp = (num[0]-i)^num[1]^num[2];
             if (tmp == 0) {
-                cout<<"a"<<","<<i<<endl;
+                cout<<"A"<<","<<i<<endl;
                 return 0;
             }
         }
@@ -25,7 +25,7 @@ int main()
         {
             int tmp = (num[1]-i)^num[0]^num[2];
             if (tmp == 0) {
-                cout<<"b"<<","<<i<<endl;
+                cout<<"B"<<","<<i<<endl;
                 return 0;
             }
         }
@@ -34,7 +34,7 @@ int main()
         {
             int tmp = (num[2]-i)^num[0]^num[1];
             if (tmp == 0) {
-                cout<<"c"<<","<<i<<endl;
+                cout<<"C"<<","<<i<<endl;
                 return 0;
             }
         }
