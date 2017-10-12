@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//流量单位设置为K，时间单位设置为秒的原因是，若不这么设置，无法计算不足1M和不足1分钟。
+
 class Package
 {
 private:
